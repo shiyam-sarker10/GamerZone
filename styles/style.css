@@ -360,7 +360,7 @@ footer{
     background-size: contain;
     background-position: center;
     color:white;
-    padding:120px;
+    padding:60px 0;
 }
 
 
@@ -378,6 +378,7 @@ footer{
     justify-content: center;
     gap: 50px;
     padding-bottom:40px;
+    flex-wrap: wrap;
 }
 
 .footer-icons{
@@ -389,10 +390,18 @@ footer{
 }
 
 .policy-menu{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: 20px;
     justify-content: center;
     align-items: center;
-    padding-bottom:40px;
+    margin-bottom:50px;
     gap: 50px;
+    font-size: 14px;
     list-style: none;
+    flex-wrap: wrap;
+    padding:10px;
+}
+.copyright{
+    text-align: center;
 }

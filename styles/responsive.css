@@ -195,6 +195,11 @@
     .play-games-desc{
         font-size: 12px;
     }
+
+    /* footer section  */
+    .policy-menu{
+        grid-template-columns: repeat(2,1fr);
+    }
     
 }
 

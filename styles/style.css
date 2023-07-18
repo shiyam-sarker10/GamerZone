@@ -320,7 +320,7 @@ nav{
 
 .play-games-desc{
     color: #534C64;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
 }
 
@@ -329,6 +329,7 @@ nav{
 .genre{
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom:120px;
 }
 .genre-container{
     display: flex;
@@ -352,3 +353,46 @@ nav{
 
 /* main section end  */
 
+/* footer section  */
+footer{
+    /* background-image: linear-gradient(45deg,#0B0223,#3b0320); */
+    background:url("../images/banner_bg.png"), linear-gradient(180deg, #6b0442 0%, #221444 100%);
+    background-size: contain;
+    background-position: center;
+    color:white;
+    padding:120px;
+}
+
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:40px;
+    
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom:40px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    padding-bottom:40px;
+}
+
+.policy-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:40px;
+    gap: 50px;
+    list-style: none;
+}

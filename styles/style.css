@@ -39,7 +39,7 @@ nav{
 .nav-container{
     display: flex;
     align-items: center;
-    padding:35px 0;
+    padding:20px 0;
 }
 
 
@@ -69,7 +69,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: end;
-    gap:32px;
+    gap:20px;
 }
 
 
@@ -85,7 +85,7 @@ nav{
     align-items: center;
     gap:20px;
     background-color: #E7E6E9;
-    padding:15px 10px;
+    padding:10px 20px;
     border-radius: 8px;
     color:#3C354F;
 }
@@ -130,11 +130,11 @@ nav{
 
 .banner-desc{
     color: #534C64;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     display: flex;
     align-items: center;
-    margin-bottom:20px;
+    margin-bottom:5px;
 }
 
 
@@ -174,6 +174,7 @@ nav{
 .online-games{
     max-width:1140px;
     margin: 0 auto;
+    margin-bottom:120px;
 }
 
 
@@ -265,6 +266,63 @@ nav{
     font-weight: 500;
     line-height: 25px;
 }
+
+
+/* play games section  */
+.play-games{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.column-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.left-column{
+    width: 50%;
+    position: relative;
+}
+
+
+.small-img{
+    position: absolute;
+   width:240px;
+    bottom:-16%;
+    right:-16%;
+}
+.small-img > img{
+    width:100%;
+    
+}
+
+
+.left-column > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.right-column{
+    width: 36%;
+
+}
+
+.pg-title{
+    text-align: left;
+    padding-bottom:20px;
+
+}
+
+.play-games-desc{
+    color: #534C64;
+    font-size: 14px;
+    line-height: 30px;
+}
+
 
 /* main section end  */
 

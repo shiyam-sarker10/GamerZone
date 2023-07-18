@@ -163,6 +163,38 @@
         font-weight: 500;
         line-height: 25px;
     }
+
+    /* play-games  section */
+
+    .column-container{
+        flex-direction: column-reverse;
+        gap:70px;
+
+    }
+
+
+    .left-column{
+        width: 80%;
+    }
+
+    .small-img{
+        width:120px;
+        bottom:-8%;
+        right:-10%;
+    }   
+
+    .right-column{
+        width: 80%;
+        text-align: center;
+
+    }
+    .pg-title{
+        text-align: center;
+
+    }
+    .play-games-desc{
+        font-size: 12px;
+    }
     
 }
 
@@ -278,6 +310,38 @@
         font-size: 16px;
     }
 
+     /* play-games  section */
+
+    .column-container{
+        flex-direction: column-reverse;
+        gap:70px;
+
+    }
+
+
+    .left-column{
+        width: 80%;
+    }
+
+    .small-img{
+        width:220px;
+        bottom:-8%;
+        right:-10%;
+    }   
+
+    .right-column{
+        width: 80%;
+        text-align: center;
+
+    }
+    .pg-title{
+        text-align: center;
+
+    }
+    .play-games-desc{
+        font-size: 14px;
+    }
+
 
 }
 /* For small laptop  */
@@ -389,6 +453,38 @@
         width: 80%;
         margin: 0 auto;
         font-size: 16px;
+    }
+
+         /* play-games  section */
+
+    .column-container{
+        flex-direction: column-reverse;
+        gap:70px;
+
+    }
+
+
+    .left-column{
+        width: 80%;
+    }
+
+    .small-img{
+        width:225px;
+        bottom:-8%;
+        right:-10%;
+    }   
+
+    .right-column{
+        width: 80%;
+        text-align: center;
+
+    }
+    .pg-title{
+        text-align: center;
+
+    }
+    .play-games-desc{
+        font-size: 14px;
     }
 
 

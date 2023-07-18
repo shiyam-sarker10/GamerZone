@@ -8,6 +8,8 @@
         color:#FF42A5;
         font-size: 40px;
     }
+
+
     .btn{
         padding:10px 20px;
         font-size: 16px;
@@ -85,10 +87,13 @@
         font-size: 25px;
     }
 
+
     .banner-desc{ 
         font-size: 14px;
         margin-bottom:10px;
     }
+
+
     .goat{
         font-size: 50px;
         margin-bottom:40px;
@@ -100,13 +105,58 @@
        margin: auto;
     }
 
+
     .banner-btn{
         justify-content: center;
         margin-bottom:20px;
         margin-top:20px;
     }
+
+
+
     .banner-img{
         width: 100%;
+    }
+
+
+    /* only games section  */
+
+    
+    .og-title{
+        font-size: 28px;
+    }
+
+
+    .og-desc{
+        font-size: 14px;;
+    }
+
+
+    .video-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+    .video{
+        height:500px;
+        width:100%
+    }
+
+
+    .video img{
+        width:80%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom:15px;
+    }
+
+
+    .video-title{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
     }
     
 }
@@ -118,16 +168,21 @@
         
         
     }
+
+
     .nav-logo{
         margin-bottom:60px;
         width:100%;
         justify-content: center;
     }
+
+
     .nav-menu{
         width: 100%;
         justify-content: center;
 
     }
+
     
     /* banner section  */
      .banner{
@@ -138,6 +193,9 @@
     .banner-container{
         flex-direction: column-reverse;
         gap:250px;
+        padding-bottom:50px;
+       
+
     }
     
 
@@ -165,9 +223,52 @@
     .banner-btn{
         justify-content: center;
     }
+
+
     .banner-img{
         width: 100%;
     }
+
+
+     /* only games section  */
+
+    
+    .og-title{
+        font-size: 35px;
+    }
+
+
+    .og-desc{
+        font-size: 16px;;
+    }
+
+
+    .video-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+    .video{
+        height:500px;
+        width:100%
+    }
+
+
+    .video img{
+        width:80%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom:15px;
+    }
+
+
+    .video-title{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+
 }
 /* For small laptop  */
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -225,12 +326,55 @@
        margin: auto;
     }
 
+
     .banner-btn{
         justify-content: center;
     }
 
 
+
     .banner-img{
         width: 100%;
     }
+
+
+         /* only games section  */
+
+    
+    .og-title{
+        font-size: 40px;
+    }
+
+
+    .og-desc{
+        font-size: 18px;;
+    }
+
+
+    .video-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+    .video{
+        height:550px;
+        width:100%
+    }
+
+
+    .video img{
+        width:80%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom:15px;
+    }
+
+
+    .video-title{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+
 }

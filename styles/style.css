@@ -272,6 +272,7 @@ nav{
 .play-games{
     max-width: 1140px;
     margin:0 auto;
+    margin-bottom:200px;
 }
 
 .column-container{
@@ -323,6 +324,31 @@ nav{
     line-height: 30px;
 }
 
+/* genre section  */
+
+.genre{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.genre-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.genre-box{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding:6px;
+    background-color: #fffefe;
+}
+.genre-box:hover {
+    border:2px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+}
 
 /* main section end  */
 

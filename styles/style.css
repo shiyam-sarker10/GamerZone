@@ -7,10 +7,24 @@
 .pink{
     color:#FF42A5;
     font-size: 45px;
+
+}
+.primary{
+    background-color:#FF42A5;
+    color:white;
+    
+}
+.btn{
+    padding:20px 40px;
+    border-radius: 48px;
+    border:none;
+    font-size: 20px;
+    color:white;
+
 }
 
 /* header start  */
-header{
+.navigation{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -74,3 +88,71 @@ nav{
     border-radius: 8px;
     color:#3C354F;
 }
+/* banner section  */
+.banner{
+    background-image:url("../images/banner_bg.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+.banner-content{
+    width:50%; 
+}
+
+
+.banner-title{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+.goat{
+    font-size: 92px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:25px;
+}
+
+.banner-desc{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+}
+
+
+.banner-desc img{
+    margin-right:10px;
+}
+
+
+.rogue{
+    background-color: #4EC5F7;
+}
+
+
+.banner-img{
+    width: 50%;
+}
+
+
+.banner-img img{
+    width:100%;
+    height: 100%;
+}
+

@@ -141,6 +141,13 @@ nav{
 }
 
 
+.banner-btn{
+    display: flex;
+    gap:25px;
+    align-items: center;
+    margin-top:40px;
+}
+
 .rogue{
     background-color: #4EC5F7;
 }

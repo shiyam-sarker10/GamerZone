@@ -8,6 +8,10 @@
         color:#FF42A5;
         font-size: 40px;
     }
+    .btn{
+        padding:10px 20px;
+        font-size: 16px;
+    }
 
 
     /* nav section  */
@@ -56,6 +60,55 @@
     .nav-icon img{
         width:25px;
     }
+
+
+    /* banner section  */
+     .banner{
+         background-position: bottom right;
+     }
+
+
+    .banner-container{
+        flex-direction: column-reverse;
+        gap:100px;
+    }
+    
+
+    .banner-content{
+        width: max-content;
+        margin: auto;
+
+    }
+
+
+    .banner-title{
+        font-size: 25px;
+    }
+
+    .banner-desc{ 
+        font-size: 14px;
+        margin-bottom:10px;
+    }
+    .goat{
+        font-size: 50px;
+        margin-bottom:40px;
+    }
+
+
+    .banner-description{
+       width:max-content;
+       margin: auto;
+    }
+
+    .banner-btn{
+        justify-content: center;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    
 }
 
 /* For tablet device  */
@@ -75,22 +128,109 @@
         justify-content: center;
 
     }
+    
+    /* banner section  */
+     .banner{
+         background-position: bottom center;
+     }
+
+
+    .banner-container{
+        flex-direction: column-reverse;
+        gap:250px;
+    }
+    
+
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .banner-title{
+        font-size: 45px;
+    }
+
+
+    .goat{
+        font-size: 92px;
+    }
+
+
+    .banner-description{
+       width:max-content;
+       margin: auto;
+    }
+
+    .banner-btn{
+        justify-content: center;
+    }
+    .banner-img{
+        width: 100%;
+    }
 }
 /* For small laptop  */
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
     .nav-container{
         flex-direction: column;
         
         
     }
+
+    
     .nav-logo{
         margin-bottom:60px;
         width:100%;
         justify-content: center;
     }
+
+
     .nav-menu{
         width: 100%;
         justify-content: center;
 
+    }
+
+
+     /* banner section  */
+     .banner{
+         background-position: bottom left;
+     }
+
+
+    .banner-container{
+        gap:20px;
+    }
+    
+
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .banner-title{
+        font-size: 45px;
+    }
+
+
+    .goat{
+        font-size: 92px;
+        margin-bottom:30px;
+    }
+
+
+    .banner-description{
+       width:max-content;
+       margin: auto;
+    }
+
+    .banner-btn{
+        justify-content: center;
+    }
+
+
+    .banner-img{
+        width: 100%;
     }
 }

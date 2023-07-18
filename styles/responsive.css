@@ -1,0 +1,96 @@
+/* for mobile device  */
+@media screen and (max-width:576px) {
+
+    /* common styles  */
+
+
+    .pink{
+        color:#FF42A5;
+        font-size: 40px;
+    }
+
+
+    /* nav section  */
+    
+    .nav-container{
+        flex-direction: column;
+        
+        
+    }
+
+
+    .nav-logo{
+        margin-bottom:60px;
+        width:100%;
+        justify-content: center;
+    }
+
+
+    .logo{
+        width:80px;
+        padding-right:10px;
+        object-fit: contain;
+    }
+
+
+    .logo-name{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    
+    .nav-menu{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .nav-icon{
+        width:200px;
+        font-size: 14px;
+        padding:15px 15px;
+        gap:15px;
+    }
+
+
+    .nav-icon img{
+        width:25px;
+    }
+}
+
+/* For tablet device  */
+@media screen and (min-width:576px) and (max-width:768px) {
+    .nav-container{
+        flex-direction: column;
+        
+        
+    }
+    .nav-logo{
+        margin-bottom:60px;
+        width:100%;
+        justify-content: center;
+    }
+    .nav-menu{
+        width: 100%;
+        justify-content: center;
+
+    }
+}
+/* For small laptop  */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .nav-container{
+        flex-direction: column;
+        
+        
+    }
+    .nav-logo{
+        margin-bottom:60px;
+        width:100%;
+        justify-content: center;
+    }
+    .nav-menu{
+        width: 100%;
+        justify-content: center;
+
+    }
+}

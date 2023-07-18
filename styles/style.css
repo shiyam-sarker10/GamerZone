@@ -44,7 +44,6 @@ nav{
 
 
 .logo-name{
-    text-align: center;
     font-size: 40px;
     font-weight: 700;
 }
@@ -64,6 +63,7 @@ nav{
     font-size: 18px;
     font-weight: 500;
 }
+
 
 .nav-icon{
     display: flex;
